@@ -11,9 +11,6 @@
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.4",
-    "@types/jest": "^27.0.1",
-    "babel-jest": "^27.1.0",
-    "jest": "^27.1.0",
     "rollup": "^2.57.0"
   },
   "dependencies": {
