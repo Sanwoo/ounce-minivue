@@ -1,0 +1,22 @@
+{
+  "name": "ounce-mini-vue",
+  "version": "1.0.0",
+  "main": "lib/ounce-mini-vue.cjs.js",
+  "module": "lib/ounce-mini-vue.esm.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "@types/jest": "^27.0.1",
+    "babel-jest": "^27.1.0",
+    "jest": "^27.1.0",
+    "rollup": "^2.57.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0"
+  }
+}
