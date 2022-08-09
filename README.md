@@ -1,23 +1,18 @@
 # ounce-minivue
 使用JavaScript编写的个人minivue，通过模仿vue3源码逻辑实现reactivity、runtime和compiler三大模块中的核心逻辑，略过边缘case，旨在通过这种方式提升自己对于vue3框架核心的理解
 ## reactivity
-### reactive
 - reactive
 - isReactive
 - reactive嵌套转换
-### effect
 - 返回 runner
 - scheduler
 - stop&onStop
-### readonly
 - isReadonly
 - readonly嵌套转换
-### ref
 - ref
 - isRef
 - unRef
 - proxyRefs
-### others
 - shallowReadonly
 - isProxy
 - computed
